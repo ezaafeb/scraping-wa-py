@@ -47,13 +47,16 @@ pip install pywhatkit
 deactivate
 #That will return you to your system's Python environment.
 ```
+### Extension WhatsApp For Web
+1. Open [whatsApp web](https://web.whatsapp.com/)
+2. Click **`Extension`** Click **`Export from group`**, select group then click the button below download,`header excel, CSV format.`
 
 ### Step 4: Prepare the Script
 1. Open the `kirim_pesan.py` file in VSCode.
 2. Edit the following variables in the script:
     - **`group_link`**: Add the invite link to your WhatsApp group.
     - **`contacts`**: List of phone numbers in international format (e.g., `['+628123456789', '+628987654321']`).
-
+      
 ### Step 5: Execute the Script
 Run the script in the terminal:
 ```bash
